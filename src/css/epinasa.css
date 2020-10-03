@@ -1,0 +1,388 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* ----------------------- GLOBAL ----------------------- */
+
+.globalContainer {
+  background-color: #F7F7F7;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  min-height: 100%;
+  flex-direction: column;
+  flex: 1;
+}
+
+.boxEmpty {
+  display: flex;
+  flex: 1;
+}
+
+.notActive {
+  text-decoration: none;
+  color: #D6D6D6;
+  user-select: none;
+}
+
+.notActiveBlack {
+  text-decoration: none;
+  color: black;
+  user-select: none;
+}
+
+/* ----------------------- ROOT & LOGIN ----------------------- */
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.boxTitle {
+  display: flex;
+  flex: 10;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  font-size: 70px;
+}
+
+.textBold {
+  font-weight: bold;
+}
+
+.textItalic {
+  font-style: italic;
+}
+
+.boxCredits {
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex: 1;
+  font-size: 15px;
+  flex-direction: column;
+}
+
+.boxLogin {
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex: 7;
+  font-size: 15px;
+  flex-direction: column;
+}
+
+.boxCreditsTop {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.boxCreditsBottom {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* ----------------------- LOGIN ----------------------- */
+
+.boxTitle3flex {
+  display: flex;
+  flex: 3;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  font-size: 70px;
+}
+
+.boxLoginTitle {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  color: #D6D6D6;
+}
+
+.boxChamp {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.champText {
+  width: 309px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+
+  font-size: 19px;
+  color: #D6D6D6;
+}
+
+.forgotText {
+  width: 309px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: end;
+
+  font-size: 16px;
+  font-style: italic;
+  color: #D6D6D6;
+}
+
+.champ {
+  width: 359px;
+  height: 49px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: white;
+  color: black;
+  font-size: 19px;
+}
+
+.boxValidate {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.validateButton {
+  width: 198px;
+  height: 49px;
+  background-color: white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, .15);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.validateText {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  user-select: none;
+  text-underline: none;
+
+  color: black;
+  font-size: 26px;
+}
+
+/* ----------------------- HEADER ----------------------- */
+
+.header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 200px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  /*
+  position: fixed;
+  */
+}
+
+.boxHeaderTitle {
+  display: flex;
+  flex: 1;
+}
+
+.headerTitleDesign {
+  width: 400px;
+  height: 104px;
+  background-color: #A79274;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.boxHeaderBack {
+  display: flex;
+  flex: 2;
+  color: #000000;
+  font-size: 20px;
+  padding-top: 4%;
+}
+
+.boxHeaderLogo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ----------------------- ACCUEIL ----------------------- */
+
+.boxHomeTitle {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.boxHomeTitleText {
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  flex: 1;
+  color: #4A4A4A;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.boxHomeItems {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #F7F7F7;
+}
+
+.boxItemGlobal {
+  flex-grow: 1;
+  height: 240px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxItemDesign {
+  background-color: gray;
+  height: 216px;
+  width: 435px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, .15);
+}
+
+.boxItemRectangle {
+  background-color: white;
+  height: 75px;
+  width: 435px;
+  border-radius: 18px;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, .15);
+}
+
+.boxItemRectangleTitle {
+  flex: 4;
+  color: #3E3E3E;
+  font-size: 26px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+}
+
+.boxItemRectangleLogo {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ----------------------- ROOM-SERVICE ----------------------- */
+
+.boxSeparationLogged {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 1000px;
+}
+
+.boxPannel {
+  flex: 1;
+}
+
+.boxPannelGlobal {
+  height: 240px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxPannelDesign {
+  background-color: gray;
+  height: 216px;
+  width: 435px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, .15);
+}
+
+.boxPannelRectangle {
+  background-color: white;
+  height: 75px;
+  width: 435px;
+  border-radius: 18px;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, .15);
+}
+
+.boxPannelRectangleTitle {
+  flex: 4;
+  color: #3E3E3E;
+  font-size: 26px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+}
+
+.boxInfos {
+  flex: 3;
+}
+
+/* ----------------------- ACCUEIL ----------------------- */
+
+/* ----------------------- ACCUEIL ----------------------- */
