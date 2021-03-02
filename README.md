@@ -1,4 +1,4 @@
-# Epitek X Nasa
+# Epitech X Nasa
 
 ![Alt text](githubImg/menu.png?raw=true "Menu")
 ![Alt text](githubImg/home.png?raw=true "Home")
